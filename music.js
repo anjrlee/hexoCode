@@ -16,15 +16,13 @@ const ap = new APlayer({
         name: "兩隻老虎",
         artist: '兒歌',
         url: 'https://XXX.mp3',
-        cover: '/music/cover/兩隻老虎.jpg',
-        lrc: '/music/lyrics/兩隻老虎.lrc',
+        cover: '/music/cover/兩隻老虎.jpg'
       },
       {
         name: '哥哥爸爸真偉大',
         artist: '兒歌',
         url: 'https://XXX.mp3',
-        cover: '/music/cover/哥哥爸爸真偉大.jpg',
-        lrc: '/music/lyrics/哥哥爸爸真偉大.lrc'
+        cover: '/music/cover/哥哥爸爸真偉大.jpg'
       }
     ]
 });
