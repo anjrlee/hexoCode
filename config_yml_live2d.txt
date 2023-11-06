@@ -1,0 +1,32 @@
+# Live2D
+## https://github.com/EYHN/hexo-helper-live2d
+live2d:
+  enable: true
+  # enable: false
+  scriptFrom: local # 默認
+  pluginRootPath: live2dw/ # 插件在站點上的根目錄(相對路徑)
+  pluginJsPath: lib/ # 腳本文件相對與插件根目錄路徑
+  pluginModelPath: assets/ # 模型文件相隊與插件根目錄路徑
+  # scriptFrom: jsdelivr # jsdelivr CDN
+  # scriptFrom: unpkg # unpkg CDN
+  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定義 url
+  tagMode: false # 標籤模式, 是否僅替? live2d tag標籤而非插入到所有頁面中
+  debug: false # 調試, 是否在控制台輸出日誌
+  model:
+    use: live2d-widget-model-wanko # npm-module package name
+    # use: wanko # 博客根目錄/live2d_models/ 下的目錄名
+    # use: ./wives/wanko # 相對於博客根目錄的路徑
+    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json # 你的自定義 url
+  display:
+    superSample: 2
+    width: 150
+    height: 300
+    position: right
+    hOffset: 0
+    vOffset: -20
+  mobile:
+    show: true
+    scale: 0.5
+  react:
+    opacityDefault: 0.7
+    opacityOnHover: 0.2
