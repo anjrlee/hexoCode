@@ -1,7 +1,7 @@
 以下放在swig
 <div>
   {% if not is_index %}
-    {% include 'passage-end-tag.swig' %}
+    {% include 'end.swig' %}
   {% endif %}
 </div>
 
