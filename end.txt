@@ -1,0 +1,11 @@
+以下放在swig
+<div>
+  {% if not is_index %}
+    {% include 'passage-end-tag.swig' %}
+  {% endif %}
+</div>
+
+
+以下放在config.yml
+passage_end_tag:
+  enabled: true
